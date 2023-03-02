@@ -11,7 +11,7 @@ min_dip = int(input('Введите минимальное число диапа
 max_dip = int(input('Введите максимальное число диапазона '))
 
 for i in range(len(my_list)):
-    if min_dip < my_list[i] < max_dip:
+    if min_dip <= my_list[i] <= max_dip:
         my_list2.append(i)
 
 print(my_list2)
